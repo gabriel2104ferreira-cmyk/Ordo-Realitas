@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-size: 16px;
+}
+body{
+    width: 100%;
+    height: 100% ;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+#membrana{
+    margin-bottom: 15px;
+}
+#Recrutamento{
+    margin-bottom: 15px;
+}
+#dono{
+    margin-bottom: 15px;
+}
+#lendas{
+    margin-bottom: 15px;
+}
+
+a{
+    color: rgba(145, 12, 12, 0.822);
+}
+
+.cabeçalho{
+    display: flex;
+    background-color: rgb(53, 52, 51);
+    width: 100%;
+    padding: 1rem ;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegação{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+.navegação a{
+    color: white;
+    text-decoration: none;
+    padding: 0,5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.5;
+}
+
+.conteudo-principal{
+    margin: 0 auto ;
+    padding: 0 20px;
+    max-width: 1200px;
+    min-width: 480px;
+}
+
+.conteudo{
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 70%;
+    height: 100%;
+    padding: 0.5rem;
+    margin: 5rem auto 10rem;
+}
+.Logo_Ordo{
+    width: 100%;
+}
+.Membrana{
+    top: 7.5%;
+    left: 1%;
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+    text-align: center;
+    
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 50%;
+    padding: 0.5rem;
+    margin: 5rem auto 10rem;
+}
+.recruta{
+    top: 7.5%;
+    left: 73.5%;
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+    text-align: center;
+    
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 50%;
+    padding: 0.5rem;
+    margin: 5rem auto 10rem;
+    text-align: center;
+}
+.verissimo{
+    text-align: center;
+    top: 75%;
+    left: 1%;
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+    text-align: center;
+    
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 75%;
+    padding: 0.5rem;
+    margin: 5rem auto 10rem;
+}
+.Dono_atual{
+    margin-left: 10%;
+    width: 75%;
+}
+
+.equipes{
+    top: 75%;
+    left: 73.5%;
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+    text-align: center;
+   
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 75%;
+    padding: 0.5rem;
+    margin: 5rem auto 10rem;
+   
+}
+.Dlogo{
+    margin-left: 25%;
+    width: 50%;
+    align-items: center;
+}
+
+.Pobrezinho{
+width: 100%;
+padding: 0 50%;
+
+}
+
+@media (max-width: 480px){
+
+.cabeçalho{
+    flex-direction: column;
+    align-items: center;
+}
+.navegação{
+    flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+
+.cabeçalho{
+        flex-direction: column;
+        align-items: center;
+}
+.navegação{
+        flex-direction: column;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
